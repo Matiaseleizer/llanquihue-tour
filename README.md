@@ -22,7 +22,7 @@ El proyecto está organizado en los siguientes paquetes:
     * `Main.java`: Punto de entrada del programa.
 * **`model`**: Contiene la clase CentroTuristico la cual le da los atributos a los objetos.
     * `CentroTuristico.java`: Clase base general.
-* **`data`**: Clase integrada mediante composición.
+* **`data`**:
   * `GestorDatos.java`: Clase que contiene al array y lee los datos.
 * **`resources`**: Contiene el archivo .txt con los datos que se trabajaron.
 
