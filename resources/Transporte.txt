@@ -1,0 +1,5 @@
+Jose;VHDJ33;Furgon;Relajacion
+Emilio;VHDJ21;Bus;Tour terrestre
+Lorena;VHDJ22;Barco;Tour maritimo
+Malena;VHDJ34;Furgon;Tour terrestre
+Diego;VHDJ56;Velero;Tour maritimo

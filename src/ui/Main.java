@@ -12,7 +12,7 @@ public class Main {
 
         GestorDatos gestor = new GestorDatos();
         //CARGA LA LISTA DEL ARCHIVO TXT
-        ArrayList<CentroTuristico> misTours = gestor.cargarTours("resources/Tours.txt");
+        ArrayList<CentroTuristico> misTours = gestor.cargarTours("resources/Tours.txt", "resources/Guias.txt", "resources/Transporte.txt");
 
         System.out.println("--- CATÁLOGO COMPLETO ---");
         for (CentroTuristico t : misTours) {
@@ -22,9 +22,9 @@ public class Main {
         System.out.println("\n--- FILTRADO: TOURS ---");
         for (CentroTuristico t : misTours) {
 
-            // FILTRO DE ACTIVIDAD
-            if ("Relajacion".equalsIgnoreCase(t.getTipo())&& t.getPrecio() > 1000) {
-                System.out.println("Encontrado: " + t.getActividad() + ", Tipo: " + t.getTipo() + ", Precio: " + t.getPrecio());
+            // FILTRO DE ACTIVIDAD Y BUSQUEDA
+            if ("Tour maritimo".equalsIgnoreCase(t.getTipo())&& t.getPrecio() > 1000) {
+                System.out.println("Encontrado: " + t.getActividad() + ", Tipo: " + t.getTipo() + ", Precio: " + t.getPrecio() + ", Guía: " + t.getGuia() + ", Transporte: " + t.getTransporte());
             }
         }
 

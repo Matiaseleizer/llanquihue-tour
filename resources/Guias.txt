@@ -1,0 +1,5 @@
+Mario;Turismologo;Tour terrestre
+Vania;Masajista; Relajacion
+Rodrigo;Turismologo;Tour maritimo
+Felipe;Geologo;Tour terrestre
+Luisa;Hidroterapeuta;Relajacion
