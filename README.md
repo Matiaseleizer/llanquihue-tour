@@ -1,5 +1,5 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
-# 🧠 Manejando colecciones y estructuras reutilizables S4 – Programacion Orientado a Objetos I
+# 🧠 Organización modular y empaquetamiento profesional S5 – Programacion Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 - **Nombre completo:** [Matias Ignacio Altamirano Moreno]
@@ -20,11 +20,11 @@ El proyecto está organizado en los siguientes paquetes:
 
 * **`ui`**: Contiene la clase principal para la ejecución del sistema.
     * `Main.java`: Punto de entrada del programa.
-* **`model`**: Contiene la clase CentroTuristico la cual le da los atributos a los objetos.
+* **`model`**: Contiene la clase CentroTuristico la cual le da los atributos a los objetos, la clase Guia y Transporte.
     * `CentroTuristico.java`: Clase base general.
 * **`data`**:
   * `GestorDatos.java`: Clase que contiene al array y lee los datos.
-* **`resources`**: Contiene el archivo .txt con los datos que se trabajaron.
+* **`resources`**: Contiene los archivos .txt con los datos que se trabajaron.
 
 ---
 
@@ -48,7 +48,7 @@ https://github.com/Matiaseleizer/LlanquihueTour.git
 ---
 
 **Repositorio GitHub:** \[https://github.com/Matiaseleizer/llanquihue-tour.git]
-**Fecha de entrega:** \[12/06/2026]
+**Fecha de entrega:** \[17/06/2026]
 
 ---
 
