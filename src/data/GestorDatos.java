@@ -3,7 +3,6 @@ package data;
 import model.CentroTuristico;
 import model.Guia;
 import model.Transporte;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;

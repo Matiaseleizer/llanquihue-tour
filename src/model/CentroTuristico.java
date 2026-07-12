@@ -1,20 +1,20 @@
 package model;
 
-public class CentroTuristico {
+public class CentroTuristico extends ServicioTuristico {
 
     //ATRIBUTOS
-    private String actividad;
+    private String nombre;
     private String tipo;
     private int precio;
     private Guia guia;
     private Transporte transporte;
 
     //CONSTRUCTOR VACIO
-    public CentroTuristico(String actividad, String tipo, int precio,  Guia guia) {}
+    public CentroTuristico(String nombre, int tipo, Guia precio, Transporte guia) {}
 
     //CONSTRUCTOR
-    public CentroTuristico(String actividad, String tipo, int precio, Guia guia,  Transporte transporte) {
-        this.actividad = actividad;
+    public CentroTuristico(String nombre, String tipo, int precio, Guia guia, Transporte transporte) {
+        this.nombre = nombre;
         this.tipo = tipo;
         this.precio = precio;
         this.guia = guia;
@@ -22,14 +22,14 @@ public class CentroTuristico {
     }
 
     //GETTER & SETTER
-    public String getActividad() {
+    public String getNombre() {
 
-        return actividad;
+        return nombre;
     }
 
-    public void setActividad(String actividad) {
+    public void setNombre(String nombre) {
 
-        this.actividad = actividad;
+        this.nombre = nombre;
     }
 
     public String getTipo() {
@@ -70,12 +70,17 @@ public class CentroTuristico {
     @Override
     public String toString() {
         return "CentroTuristico{" +
-                "actividad='" + actividad + '\'' +
+                "actividad='" + nombre + '\'' +
                 ", tipo='" + tipo + '\'' +
                 ", precio=" + precio +
                 ", guia=" + guia +
                 ", transporte=" + transporte +
                 '}';
+    }
+
+    @Override
+    public void mostrarResumen() {
+        System.out.println("[CENTRO TURÍSTICO] " + getNombre() + " | Tipo: " + getTipo());
     }
   }
 

@@ -1,5 +1,5 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
-# 🧠 Organización modular y empaquetamiento profesional S5 – Programacion Orientado a Objetos I
+# 🧠 Desarrollando interfaces, colecciones genéricas y validación de tipos S8 – Programacion Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 - **Nombre completo:** [Matias Ignacio Altamirano Moreno]
@@ -21,9 +21,12 @@ El proyecto está organizado en los siguientes paquetes:
 * **`ui`**: Contiene la clase principal para la ejecución del sistema.
     * `Main.java`: Punto de entrada del programa.
 * **`model`**: Contiene la clase CentroTuristico la cual le da los atributos a los objetos, la clase Guia y Transporte.
+    * `ServicioTuristico.java`: Padre de los servicios y hace el contrato con registrable.
     * `CentroTuristico.java`: Clase base general.
+    * `Registrable.java`: Clase para crear el contrato
 * **`data`**:
   * `GestorDatos.java`: Clase que contiene al array y lee los datos.
+  * `GestorEntidades`: Se crean las listas polimorficas
 * **`resources`**: Contiene los archivos .txt con los datos que se trabajaron.
 
 ---
@@ -48,7 +51,7 @@ https://github.com/Matiaseleizer/LlanquihueTour.git
 ---
 
 **Repositorio GitHub:** \[https://github.com/Matiaseleizer/llanquihue-tour.git]
-**Fecha de entrega:** \[17/06/2026]
+**Fecha de entrega:** \[12/07/2026]
 
 ---
 
