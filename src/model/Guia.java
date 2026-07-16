@@ -1,28 +1,16 @@
 package model;
 
-public class Guia {
-    //ATRIBUTOS
-    private String nombre;
+
+
+public class Guia extends Persona {
     private String profesion;
     private String tipo;
 
-    public Guia() {}
-
-    //CONSTRUCTOR
-    public Guia(String nombre,  String profesion, String tipo) {
-        this.nombre = nombre;
+    // CONSTRUCTOR
+    public Guia(String rutRaw, String nombre, String profesion, String tipo) throws RutInvalidoException {
+        super(nombre, rutRaw); // Pasa datos a Persona, validando el RUT
         this.profesion = profesion;
         this.tipo = tipo;
-    }
-
-    //GETTER & SETTER
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
     }
 
     public String getProfesion() {
@@ -43,10 +31,6 @@ public class Guia {
 
     @Override
     public String toString() {
-        return "Guia{" +
-                "nombre='" + nombre + '\'' +
-                ", profesion='" + profesion + '\'' +
-                ", tipo='" + tipo + '\'' +
-                '}';
+        return "[GUÍA] " + super.toString() + " | Profesión: " + profesion + " | Tipo: " + tipo;
     }
 }

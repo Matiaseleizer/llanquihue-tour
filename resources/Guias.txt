@@ -1,5 +1,3 @@
-Mario;Turismologo;Tour terrestre
-Vania;Masajista; Relajacion
-Rodrigo;Turismologo;Tour maritimo
-Felipe;Geologo;Tour terrestre
-Luisa;Hidroterapeuta;Relajacion
+20027265-k;Mario;Turismologo;Tour terrestre
+13799949-8;Vania;Masajista; Relajacion
+21971492-0;Rodrigo;Turismologo;Tour maritimo

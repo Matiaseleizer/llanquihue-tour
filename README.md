@@ -1,5 +1,5 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
-# 🧠 Desarrollando interfaces, colecciones genéricas y validación de tipos S8 – Programacion Orientado a Objetos I
+# 🧠 Evaluacion final transversal S9 – Programacion Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 - **Nombre completo:** [Matias Ignacio Altamirano Moreno]
@@ -24,6 +24,9 @@ El proyecto está organizado en los siguientes paquetes:
     * `ServicioTuristico.java`: Padre de los servicios y hace el contrato con registrable.
     * `CentroTuristico.java`: Clase base general.
     * `Registrable.java`: Clase para crear el contrato
+    * `RutInvalidoException`: Alerta cuando un RUT no cumple con el formato.
+    * `Rut`: Realiza la verificacion y validacion del RUT.
+    * `Persona`: Da una caracteristica y genera herencia con GUIA.
 * **`data`**:
   * `GestorDatos.java`: Clase que contiene al array y lee los datos.
   * `GestorEntidades`: Se crean las listas polimorficas
@@ -51,7 +54,7 @@ https://github.com/Matiaseleizer/LlanquihueTour.git
 ---
 
 **Repositorio GitHub:** \[https://github.com/Matiaseleizer/llanquihue-tour.git]
-**Fecha de entrega:** \[12/07/2026]
+**Fecha de entrega:** \[16/07/2026]
 
 ---
 
